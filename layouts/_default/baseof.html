@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+{{ partial "head.html" . }}
+<body>
+  {{ partial "header" . }}
+  {{ partial "search.html" .}}
+  {{ block "content" . }}{{ end }}
+  {{ partial "footer.html" . }}
+  {{ partial "accessibility.html" . }}
+</body>
+{{ partial "script.html" . }}
+</html>

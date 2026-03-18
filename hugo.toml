@@ -1,0 +1,39 @@
+baseURL = 'https://pangdahai967.github.io/'
+defaultContentLanguage = 'zh'
+title = '胖大海的博客'
+theme = "github-style"
+staticDir = "static"
+
+[languages]
+  [languages.zh]
+    contentDir = 'content/zh'
+    languageName = '中文'
+    title = '胖大海的博客'
+    weight = 1
+
+[params]
+  author = "胖大海"
+  description = "这里是我的个人博客。"
+  github = "pangdahai967"
+  email = "dahaipang7@gmail.com"
+  keywords = "blog, hugo, github pages"
+  rss = true
+  userStatusEmoji = "🐱"
+  favicon = "/images/github-mark.png"
+  avatar = "/images/avatar.png"
+  headerIcon = "/images/github-mark-white.png"
+  location = "China"
+  enableGitalk = false
+  custom_css = []
+  custom_js = []
+  enableSearch = true
+
+  galleryRepoOwner = ""
+  galleryRepoName = ""
+  galleryRepoBranch = "main"
+  galleryPath = "gallery"
+  galleryIndexFile = "index.json"
+  galleryEnabled = false
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
